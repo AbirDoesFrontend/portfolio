@@ -57,7 +57,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.9 }}
         className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 capitalize"
       >
-        check out my project
+        check out my projects
       </motion.button>
     </section>
   );
