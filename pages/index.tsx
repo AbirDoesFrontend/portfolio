@@ -4,6 +4,7 @@ import RightSide from "@/components/RightSide";
 import Head from "next/head";
 
 import { motion } from "framer-motion";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
@@ -28,7 +29,9 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className="h-[88vh] mx-auto p-4">Middle</div>
+          <div className="h-[88vh] w-full mx-auto p-4">
+            <Banner />
+          </div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
