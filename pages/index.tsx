@@ -10,6 +10,7 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
             <Projects />
             <Archive />
             <Contact />
+            <Footer />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
