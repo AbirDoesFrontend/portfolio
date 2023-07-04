@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
             <Banner />
             <About />
             <Experience />
+            <Projects />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
